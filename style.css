@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.nav-icons span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.stories {
+    display: flex;
+    gap: 15px;
+    padding: 15px 20px;
+    background: #fafafa;
+    border-bottom: 1px solid #ececec;
+}
+
+.story {
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #f56;
+    border-radius: 50px;
+    text-align: center;
+    min-width: 60px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.post {
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-image {
+    width: 100%;
+    height: 350px;
+    background: #eee;
+}
+
+.post-actions {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.post p {
+    padding: 0 10px 10px 10px;
+}
